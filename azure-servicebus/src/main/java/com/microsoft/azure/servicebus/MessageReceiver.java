@@ -494,7 +494,6 @@ class MessageReceiver extends InitializableEntity implements IMessageReceiver, I
             else
                 return convertAmqpMessagesWithDeliveryTagsToBrokeredMessages(c);
         });
-
     }
 
     @Override
